@@ -1,0 +1,7 @@
+numpy==1.21.5
+ijson==3.1.4
+pytorch-ignite==0.4.9
+seaborn==0.11.2
+tensorboard==2.9.0
+torch==1.11.0
+torchvision==0.12.0
