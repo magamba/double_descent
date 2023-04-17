@@ -5,11 +5,11 @@ This repository contains the source code to reproduce the experiments of the pap
 If you use or draw inspiration from this code in your experiments, please cite as:
 
 ```latex
-@article{
-    gamba2023deep,
+@article{gamba2023deep,
     title={Deep Double Descent via Smooth Interpolation},
-    author={Matteo Gamba and Erik Englesson and M\{r}arten Bj{\"o}rkman and Hossein Azizpour},
+    author={Matteo Gamba and Erik Englesson and M{\r{a}}rten Bj{\"o}rkman and Hossein Azizpour},
     journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
     year={2023},
     url={https://openreview.net/forum?id=fempQstMbV},
     note={}
