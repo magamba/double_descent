@@ -2,6 +2,8 @@
 
 This repository contains the source code to reproduce the experiments of the paper "Deep Double Descent via Smooth Interpolation", M. Gamba, E. Englesson, M. Björkman, H. Azizpour. TMLR 2023.
 
+![Illustration of the geodesic Monte Carlo sampling method introduced in our paper.](./pics/illustration_wide.png) ![Illustration of the geodesic Monte Carlo sampling method introduced in our paper.](./pics/illustration_sharp.png)
+
 If you use or draw inspiration from this code in your experiments, please cite as:
 
 ```latex
