@@ -2,7 +2,9 @@
 
 This repository contains the source code to reproduce the experiments of the paper "Deep Double Descent via Smooth Interpolation", M. Gamba, E. Englesson, M. Björkman, H. Azizpour. TMLR 2023.
 
-![Illustration of the geodesic Monte Carlo sampling method introduced in our paper.](./pics/illustration_wide.png) ![Illustration of the geodesic Monte Carlo sampling method introduced in our paper.](./pics/illustration_sharp.png)
+| ![Illustration of the geodesic Monte Carlo sampling method introduced in our paper.](./pics/illustration_wide.png) | ![Illustration of the geodesic Monte Carlo sampling method introduced in our paper.](./pics/illustration_sharp.png) |
+| - | - |
+| <td colspan="2"> Illustration of the geodesic Monte Carlo sampling method introduced in our paper. We explore the loss landscape of neural networks in input space and study whether neural networks sharply or smoothly interpolate noisy data. |
 
 If you use or draw inspiration from this code in your experiments, please cite as:
 
@@ -17,6 +19,10 @@ If you use or draw inspiration from this code in your experiments, please cite a
     note={}
 }
 ```
+
+| ![A polynomial interpolating a noisy training set. The learned regression function sharply interpolates the noisy training data, forming peaks at each training point.](./pics/poly-regression.png "Polynomial regression") | ![In contrast, neural networks smoothly interpolate the training data.](./pics/nn-regression.png "Neural network regression") |
+| - | - |
+| <td colspan=2> Our experiments show that, unlike polynomials (left), neural network are able to smoothly interpolate noisy training data (right). |
 
 ## Set up
 
